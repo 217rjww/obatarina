@@ -21,11 +21,16 @@ public class Variable2 {
 //		③コンソールに変数 i の値を表示する。
 //		④デクリメント演算子を適用して数値を 1 減らす。
 //		⑤コンソールに変数 i の値を表示する。
-		
+		 
+		//1
 		int i =100;
+		//2
 		i++;
+		//3
 		System.out.println(i);
+		//4
 		i--;
+		//5
 		System.out.println(i);
 		
 		
