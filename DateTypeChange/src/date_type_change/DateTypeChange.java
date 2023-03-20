@@ -28,10 +28,10 @@ public class DateTypeChange {
 		//2
 		pi*=3;
 		System.out.println(pi);
-		//3
-		int integer;
-		integer =(int)pi;
-		System.out.println(pi);
+		//4
+		
+		int integer = (int)pi;
+		System.out.println(integer);
 		
 		
 //		問３）
