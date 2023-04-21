@@ -2,8 +2,8 @@ package lesson1_29_30;
 
 public class Main {
 	public static void main(String[] args) {
-		Prefecture prefecture = new Prefecture();        //インスタンス化
-		prefecture.Prefecture();                         //prefectureの呼び出し
+		Prefecture prefecture = new Prefecture();        // インスタンス化
+		prefecture.Prefecture();                         // prefectureの呼び出し
 
 	}
 }
