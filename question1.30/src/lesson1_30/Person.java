@@ -4,21 +4,22 @@ class Person {
 	String name;                                                           // インスタンスフィールドを定義
 	int age;                                                               
 	double height;
-	double weight;                                                         // インスタンスフィールド「weight」を定義し、コンストラクタの中で値をセット
+	double weight;                                                        
 	int count = 0;                                                         // countを定義、初期値0
 
 	                                                                       
 	public Person(String name, int age, double height, double weight) {    // コンストラクタを定義
-		this.name = name;                                                  // コンストラクタの中で各インスタンスフィールドに値をセット
+		this.name = name;                                                  
 		this.age = age;
 		this.height = height;
 		this.weight = weight;
-		count++;                                                           // インクリメント
+		count++;                                                           // countをインクリメント
 	}
 	
 
-	public double bmi() {                                                  // インスタンスメソッド「bmi」を定義
-		return Math.floor(weight / (height * height));                     // bmiメソッドでインスタンスのBMIを返す
+	public double bmi() {                                                  // bmiメソッドを定義
+		return Math.floor(weight / (height * height));                     // Math.floorメソッドを使用して小数点以下を切り捨てBMI値を返す
+		                                                                   
 	}
 
 	public void print() {                                                  // インスタンスメソッド「print」を定義
